@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+     display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    color: white;
+    font-family: "poppins", sans-serif;
+    text-transform: capitalize;
+    background: black;
+    color: white;
+}
+.topsuperbutton{
+
+    border-radius: 50px;
+    width: 120px;
+    height: 48px;
+    display: flex;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    box-shadow: 0.4px 12px rgba(0, 0, 0, 0.2);
+    font-size: 30px;
+   
+}
+.superbutton1{
+
+    border-radius: 50px;
+    width: 60px;
+    text-align: center;
+    background-color: white;
+}
+.superbutton2{
+
+    border-radius: 50px;
+    width: 60px;
+    text-align: center;
+}
+
+
+.light {
+    width: 500px;
+    transition: 0.5s;
+    margin-top: -150px;
+    margin-bottom: 100px;
+    position: relative;
+    z-index: -1;
+    transition: 0.4s;
+    transform: 0.4s;
+
+  
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -140px;
+    gap: 40px;
+}
+
+.btn1 {
+    border: 2px solid white;
+    width: 120px;
+    height: 50px;
+    margin-top: -20px;
+    border-radius: 10px;
+    font-size: 30px;
+    background-color: green;
+      padding: 12px 35px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn2 {
+    border: 2px solid white;
+    width: 120px;
+    height: 50px;
+    margin-top: -20px;
+    border-radius: 10px;
+    background-color: red;
+      padding: 12px 35px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media (max-width : 768px)
+{
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 100vh;
+ } 
+
+ .light{
+    max-width: 300px;
+   
+ }
+
+ .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+ }
+
+ .btn1{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+     width: 70px;
+    height: 30px;
+    margin-top: 40px;
+ }
+ .btn2{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+     width: 70px;
+    height: 30px;
+    margin-top: 40px;
+ }
+}
+
+@media (max-width : 480px)
+{
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ } 
+
+
+
+ .light{
+    max-width: 200px;
+ }
+
+ .button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .btn1{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+     width: 30px;
+    height: 20px;
+    margin-top: 50px;
+ }
+
+ .btn2{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+     width: 30px;
+    height: 20px;
+    margin-top: auto;
+ }
+}
+
