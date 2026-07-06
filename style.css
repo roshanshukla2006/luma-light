@@ -17,7 +17,7 @@ body {
 }
 
 .topsuperbutton {
-    border: 2px solid white;
+    border: 2px solid #6b7280;
     border-radius: 50px;
     width: 120px;
     height: 48px;
@@ -118,7 +118,7 @@ body {
         height: 100vh;
     }
         .topsuperbutton {
-        border: 2px solid rgba(0, 0, 0, 0.2);
+        border: 2px solid #6b7280;
         box-shadow: 0.4px 12px rgba(0, 0, 0, 0.2);
     }
 
@@ -177,7 +177,7 @@ body {
         height: 100vh;
     }
         .topsuperbutton {
-        border: 2px solid rgba(0, 0, 0, 0.2);
+        border: 2px solid #6b7280;
         box-shadow: 0.4px 12px rgba(0, 0, 0, 0.2);
     }
 
