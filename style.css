@@ -3,10 +3,9 @@
     padding: 0;
 }
 
-
 body {
-     display: flex;
-    justify-content: center; 
+    display: flex;
+    justify-content: center;
     align-items: center;
     height: 100vh;
     flex-direction: column;
@@ -16,7 +15,8 @@ body {
     background: black;
     color: white;
 }
-.topsuperbutton{
+
+.topsuperbutton {
 
     border-radius: 50px;
     width: 120px;
@@ -27,21 +27,31 @@ body {
     right: 20px;
     z-index: 1000;
     box-shadow: 0.4px 12px rgba(0, 0, 0, 0.2);
-    font-size: 30px;
-   
+    font-size: 28px;
 }
-.superbutton1{
 
+.superbutton1 {
     border-radius: 50px;
     width: 60px;
     text-align: center;
+    display: flex;
     background-color: white;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    line-height: 1;
+
 }
-.superbutton2{
+
+.superbutton2 {
 
     border-radius: 50px;
     width: 60px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 
 
@@ -55,7 +65,7 @@ body {
     transition: 0.4s;
     transform: 0.4s;
 
-  
+
 }
 
 .button {
@@ -74,7 +84,7 @@ body {
     border-radius: 10px;
     font-size: 30px;
     background-color: green;
-      padding: 12px 35px;
+    padding: 12px 35px;
     font-size: 30px;
     font-weight: bold;
     cursor: pointer;
@@ -90,7 +100,7 @@ body {
     margin-top: -20px;
     border-radius: 10px;
     background-color: red;
-      padding: 12px 35px;
+    padding: 12px 35px;
     font-weight: bold;
     cursor: pointer;
     font-size: 30px;
@@ -100,87 +110,120 @@ body {
 
 }
 
-@media (max-width : 768px)
-{
- body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-     height: 100vh;
- } 
+@media (max-width : 768px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
 
- .light{
-    max-width: 300px;
-   
- }
+    .superbutton1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
 
- .button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
- }
+    .superbutton2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
 
- .btn1{
-     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 25px;
-     width: 70px;
-    height: 30px;
-    margin-top: 40px;
- }
- .btn2{
-     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 25px;
-     width: 70px;
-    height: 30px;
-    margin-top: 40px;
- }
+    .light {
+        max-width: 300px;
+
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .btn1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        width: 70px;
+        height: 30px;
+        margin-top: 40px;
+    }
+
+    .btn2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        width: 70px;
+        height: 30px;
+        margin-top: 40px;
+    }
 }
 
-@media (max-width : 480px)
-{
- body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
- } 
+@media (max-width : 480px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .topsuperbutton {
+        width: 100px;
+        height: 42px;
+        top: 12px;
+        right: 12px;
+
+    }
+
+    .superbutton1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .superbutton2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
 
 
+    .light {
+        max-width: 200px;
+    }
 
- .light{
-    max-width: 200px;
- }
+    .button {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
 
- .button{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
- }
+    .btn1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        width: 30px;
+        height: 20px;
+        margin-top: 50px;
+    }
 
- .btn1{
-     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 25px;
-     width: 30px;
-    height: 20px;
-    margin-top: 50px;
- }
-
- .btn2{
-     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 25px;
-     width: 30px;
-    height: 20px;
-    margin-top: auto;
- }
+    .btn2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        width: 30px;
+        height: 20px;
+        margin-top: auto;
+    }
 }
-
