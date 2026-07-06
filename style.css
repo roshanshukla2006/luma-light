@@ -17,7 +17,7 @@ body {
 }
 
 .topsuperbutton {
-
+    border: 2px solid white;
     border-radius: 50px;
     width: 120px;
     height: 48px;
