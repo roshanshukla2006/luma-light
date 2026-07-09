@@ -1,24 +1,25 @@
-# 💡 Luma Light
+# Luma Light
 
-A simple and interactive Light Bulb project built with HTML, CSS, and JavaScript.
+# Light Bulb Project
 
-## ✨ Features
-- 💡 Turn the bulb ON and OFF
-- 🌙 Dark & Light Mode Toggle
-- 📱 Responsive Design
-- 🎨 Smooth animations and clean UI
+A simple Light Bulb project made using HTML, CSS, and JavaScript.
 
-## 🛠️ Built With
+## Features
+
+- Turn the bulb ON and OFF
+- Dark and Light mode
+- Responsive layout
+- Smooth animations
+- Clean user interface
+
+## Built With
+
 - HTML5
 - CSS3
 - JavaScript
 
-## 🎯 About
+## About
 
-This is one of my beginner front-end projects. I created it to improve my HTML, CSS, and JavaScript skills while learning responsive web design and building interactive user interfaces.
+This project was created to practice HTML, CSS, and JavaScript. It helped me improve my understanding of DOM manipulation, styling, and responsive web design.
 
-⭐ If you like this project, feel free to give it a ⭐ on GitHub!
-
----
-
-### 🎨 Designed & Developed by **Roshan Shukla**
+Designed & Developed by Roshan Shukla
